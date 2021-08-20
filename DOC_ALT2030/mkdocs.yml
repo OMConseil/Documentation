@@ -1,0 +1,22 @@
+site_name: DOC ALT2030
+nav:
+    - Home: index.md
+    - Methodologie :
+        - Nomenclature : methodo/nomenclature.md
+        - Equipements brutes : methodo/equipement_brute.md
+        - Utilisation : methodo/utilisation.md
+        - Autres regles : methodo/regles_additionnels.md
+        - Infrastructure : methodo/infra.md
+        - Infrastructure Cloud : methodo/infra_cloud.md
+        - Profil : methodo/profil.md
+        - Departement : methodo/departement.md
+        - Entreprise : methodo/entreprise.md
+        - Services : methodo/services.md
+        - Maturité : methodo/maturite.md
+    - Utilisateur :
+        - TUTO : tuto.md
+    - Technique :
+        - API IMPACT : api_impact.md
+        - Inventaire : inventaire.md
+        - Infrastructure : infra.md
+theme: readthedocs
