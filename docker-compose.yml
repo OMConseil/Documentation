@@ -1,0 +1,6 @@
+version: "3"
+services:
+  alt2030_doc:
+    build: .
+    image: ghcr.io/omconseil/alt2030_doc:latest
+    container_name: alt2030_doc
