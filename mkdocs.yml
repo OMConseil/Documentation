@@ -1,5 +1,7 @@
 site_name: DOC ALT2030
 dev_addr: '0.0.0.0:8080'
+plugins:
+    - render_swagger
 nav:
     - Home: index.md
     - Methodologie :
@@ -15,9 +17,11 @@ nav:
         - Services : methodo/services.md
         - Maturité : methodo/maturite.md
     - Utilisateur :
-        - TUTO : tuto.md
+        - TUTO : utilisateur/tuto.md
     - Technique :
-        - API IMPACT : api_impact.md
-        - Inventaire : inventaire.md
-        - Infrastructure : infra.md
+        - Flux de données : technique/flux_donnees.md
+        - Technologies : technique/technologies.md
+        - CI/CD : technique/CI-CD.md
+        - API IMPACT : technique/api_impact.md
+        - Securité : technique/securite.md
 theme: readthedocs
